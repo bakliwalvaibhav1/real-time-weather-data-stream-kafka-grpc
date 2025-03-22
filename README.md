@@ -1,4 +1,4 @@
-<h2 align="center">Real-Time Weather Data Stream with Kafka and gRPC</h3>
+<h1 align="center">Real-Time Weather Data Stream with Kafka and gRPC</h3>
 
 This project demonstrates the real-time processing of weather data using **Apache Kafka** for stream processing and **gRPC** for efficient communication. It consists of a **Producer** that generates weather data and sends it to Kafka topics, and a **Consumer** that processes the data and computes statistics.
 
@@ -23,13 +23,6 @@ In this project, weather data (temperature, station ID, and date) is produced an
 - **JSON**: Used for storing and handling data for statistics calculation.
 
 ## Technologies Used
-- **Kafka**: A distributed event streaming platform.
-- **Python**: The programming language used for both the Producer and Consumer.
-- **gRPC**: Used for efficient communication and serialization of messages.
-- **Protobuf**: For defining the structure of messages exchanged between Producer and Consumer.
-- **JSON**: Used for storing and handling data for statistics calculation.
-
-# Technologies Used
 
 <p align="center">
   <a href="https://go-skill-icons.vercel.app/">
