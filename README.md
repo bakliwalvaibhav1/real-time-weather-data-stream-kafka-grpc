@@ -1,4 +1,4 @@
-# Real-Time Weather Data Stream with Kafka and gRPC
+<h2 align="center">Real-Time Weather Data Stream with Kafka and gRPC</h3>
 
 This project demonstrates the real-time processing of weather data using **Apache Kafka** for stream processing and **gRPC** for efficient communication. It consists of a **Producer** that generates weather data and sends it to Kafka topics, and a **Consumer** that processes the data and computes statistics.
 
