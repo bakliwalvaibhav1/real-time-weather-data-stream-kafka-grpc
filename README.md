@@ -117,6 +117,5 @@ The **Consumer** reads the weather data from Kafka partitions, processes it, and
 │   ├── partition-0.json
 │   ├── partition-1.json
 │   └── ...
-├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```
