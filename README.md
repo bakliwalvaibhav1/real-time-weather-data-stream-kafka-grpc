@@ -110,12 +110,16 @@ The **Consumer** reads the weather data from Kafka partitions, processes it, and
 
 ## Directory Structure
 ```bash
-├── consumer.py              # Consumer script to process Kafka messages
-├── producer.py              # Producer script to send data to Kafka
-├── report_pb2.py            # gRPC Protobuf file for weather data structure
 ├── data/                    # Folder containing JSON files for partition statistics
 │   ├── partition-0.json
 │   ├── partition-1.json
 │   └── ...
-└── README.md                # Project documentation
+├── README.md                # Project documentation
+├── consumer.py              # Consumer script to process Kafka messages
+├── debug.py                 # Debug script to check Kafka stream
+├── producer.py              # Producer script to send data to Kafka
+├── report.proto             # Proto file with weather data structure
+├── report_pb2.py            # Script generated using proto file
+├── report_pb2_grpc.py       # gRPC Protobuf file for weather data structure
+└── weather.py               # Script to produce weather data
 ```
